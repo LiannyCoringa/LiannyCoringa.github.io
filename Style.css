@@ -16,12 +16,13 @@ body {
     background-color: rgb(133, 19, 38);
     }
 
-.header h3 {
+.header h2 {
     background-position: 2;
-    width: 45%;
+    width: auto;
     display: inline-block;
     padding: 10px;
     position:absolute;
+    margin-left: 20px;
     
 }
 h1 {
