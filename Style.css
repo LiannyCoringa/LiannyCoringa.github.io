@@ -1,51 +1,57 @@
-body {
-    background-color: rgb(250, 231, 234);
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 .header {
-    font-family: sans-serif;
-    line-height: 20px;
-    padding: 50px;
-    
-          
-}
-.header img {
-    width: 400px;
-    height: 300px;
-    border-radius: 10%;
-    padding: 10px;
-    background-color: rgb(133, 19, 38);
-    }
-
-.header h2 {
-    background-position: 2;
-    width: auto;
-    display: inline-block;
-    padding: 10px;
-    position:absolute;
-    margin-left: 20px;
-    
-}
-h1 {
-    font-size: 25px;
-    color: rgb(63, 2, 2);
-    font-style: italic;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(224, 204, 210);
 }
-.Índice {
-    color: black;
+.myImage {
+    background-color: rgb(241, 233, 233);
+    display: flex;
+    justify-content: center;
 }
-
-.parág {
-line-height: 20px;
-font-weight: 600px;
-font-size: 15px;
+.myImage img {
+    width: 40%;
+    border-radius: 5px;
 }
-.botão {
-    color: #fff;
-    background-color: rgb(133, 19, 38);
-    padding: 15px 30px
+.text {
+    background-color: rgb(241, 233, 233);
+    text-align: center;
+    padding: 30px;
 }
-.Sobre-mim h3 {
-    padding-top: 20px;
+.index {
+    background-color: rgb(241, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+.withMe {
+    background-color: rgb(241, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+.withMe p {
+    width: 50%;
+    margin: 20px;
+    text-align: justify;
+}
+.withMe ul {
+    margin: 20px;
+    width: 40%;
+    text-align: justify;
+}
+.footer {
+    background-color: rgb(226, 217, 217);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.footer p {
+    text-align: justify;
 }
