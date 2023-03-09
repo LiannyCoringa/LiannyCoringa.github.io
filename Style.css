@@ -10,7 +10,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: rgb(224, 204, 210);
+    background-color: rgb(226, 217, 217);
 }
 
 .text {
@@ -19,9 +19,9 @@
     font-size: 25px;
     min-height: 100vh;
     background-size: cover;
+    background-position: center;
     padding: 30px;
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .withMe {
