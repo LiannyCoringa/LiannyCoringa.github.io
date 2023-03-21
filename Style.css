@@ -14,20 +14,23 @@
 }
 .links {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-decoration: underline;  
+    text-decoration: none;  
 }
 .links a {
     color: black;
-    padding: 20px;
+    padding: 5px;
+    border: 2px solid white;
 }
+
 .links a:hover {
     color: #000000; 
     opacity: 0.1;
 }
-
+.links p {
+    margin: 7px;
+}
 .text {
     background-image: url(./images/WhatsApp\ Image\ 2023-01-24\ at\ 16.55.22.jpeg);
     text-align: center;
