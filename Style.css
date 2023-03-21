@@ -12,6 +12,21 @@
     padding: 20px;
     background-color: rgb(226, 217, 217);
 }
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: underline;  
+}
+.links a {
+    color: black;
+    padding: 5px;
+}
+.links a:hover {
+    color: #000000; 
+    opacity: 0.1;
+}
 
 .text {
     background-image: url(./images/WhatsApp\ Image\ 2023-01-24\ at\ 16.55.22.jpeg);
