@@ -12,10 +12,14 @@ const clickInButton = () => {
     let backgroundWithMe = withMe.style.backgroundColor = 'black';
     let backgroundSkills = skills.style.backgroundColor = 'black';
     let backgroundFooter = footer.style.backgroundColor = 'rgb(68, 64, 64';
+
     let colorHeader = header.style.color = 'white'; 
     let colorSobreMim = sobreMim.style.color = 'white';   
     let colorHabilidades = habilidades.style.color = 'white';
-    return(background, backgroundHeader, backgroundWithMe, backgroundSkills, colorHeader, colorSobreMim, colorHabilidades);
+    let colorWithMe = withMe.style.color = 'white';
+    let colorSkills = skills.style.color = 'white';
+
+    return(background, backgroundHeader, backgroundWithMe, backgroundSkills, backgroundFooter, colorHeader, colorSobreMim, colorHabilidades, colorWithMe, colorSkills);
 };
     
     let buttonDark = document.getElementById("darkMode");
