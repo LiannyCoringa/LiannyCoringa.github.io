@@ -1,17 +1,14 @@
-window.onload = () => {
-const clickInButton = (color) => {
+const clickInButton = () => {
     let header = document.getElementById('header');
-    header.style.backgroundColor = color;};
-
-let buttonDark = document.getElementById("darkMode");
-
-buttonDark.addEventListener(click, clickInButton);
-//     header.style.color = 'white';
-//     withMe.style.backgroundColor = 'black';
-//     withMe.style.color = 'white';
-//     skills.style.backgroundColor = 'black';
-//     skills.style.color = 'white';
-//     footer.style.backgroundColor = 'black';
-//     footer.style.color = 'white';
- clickInButton('black');
+    let sobreMim = document.getElementById('sobreMim');
+    let habilidades = document.getElementById('habilidades');
+    let background = header.style.backgroundColor = 'black';
+    let colorHeader = header.style.color = 'white'; 
+    let colorSobreMim = sobreMim.style.color = 'white';   
+    let colorHabilidades = habilidades.style.color = 'white';
+    return(background, colorHeader, colorSobreMim, colorHabilidades);
 };
+    
+    let buttonDark = document.getElementById("darkMode");
+    buttonDark.addEventListener('click', clickInButton);
+
