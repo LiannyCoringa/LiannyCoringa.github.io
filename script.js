@@ -27,3 +27,7 @@ const clickInButton = () => {
     let buttonDark = document.getElementById("darkMode");
     buttonDark.addEventListener('click', clickInButton);
 
+    // let buttonLight = document.getElementById('lightMode');
+    // buttonLight.addEventListener('click', )
+    // Preciso ver exemplos de como aplicar o localStorage para minha página voltar a ficar clara quando tocar no botão Light. 
+
