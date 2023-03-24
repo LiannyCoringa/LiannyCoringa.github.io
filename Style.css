@@ -86,3 +86,8 @@
     color: black;
     text-decoration: none
 }
+.button {
+    background-color: rgb(226, 217, 217);
+    margin: 5px;
+    border: 0;
+}
