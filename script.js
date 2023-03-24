@@ -1,12 +1,21 @@
 const clickInButton = () => {
+    let body = document.getElementById('body');
     let header = document.getElementById('header');
     let sobreMim = document.getElementById('sobreMim');
     let habilidades = document.getElementById('habilidades');
-    let background = header.style.backgroundColor = 'black';
+    let withMe = document.getElementById('withMe');
+    let skills = document.getElementById('skills');
+    let footer = document.getElementById('footer');
+
+    let background = body.style.backgroundColor = 'black';
+    let backgroundHeader = header.style.backgroundColor = 'black';
+    let backgroundWithMe = withMe.style.backgroundColor = 'black';
+    let backgroundSkills = skills.style.backgroundColor = 'black';
+    let backgroundFooter = footer.style.backgroundColor = 'rgb(68, 64, 64';
     let colorHeader = header.style.color = 'white'; 
     let colorSobreMim = sobreMim.style.color = 'white';   
     let colorHabilidades = habilidades.style.color = 'white';
-    return(background, colorHeader, colorSobreMim, colorHabilidades);
+    return(background, backgroundHeader, backgroundWithMe, backgroundSkills, colorHeader, colorSobreMim, colorHabilidades);
 };
     
     let buttonDark = document.getElementById("darkMode");
