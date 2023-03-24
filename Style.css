@@ -33,6 +33,7 @@
 }
 .text {
     background-image: url(./images/WhatsApp\ Image\ 2023-01-24\ at\ 16.55.22.jpeg);
+    opacity: 0.6;
     text-align: center;
     font-size: 25px;
     min-height: 100vh;
