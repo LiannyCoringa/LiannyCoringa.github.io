@@ -10,7 +10,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: rgb(226, 217, 217);
+    /* background-color: rgb(226, 217, 217); */
 }
 .links {
     display: flex;
@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 .links a {
-    color: black;
+    /* color: black; */
     padding: 5px;
     border: 2px solid white;
 }
@@ -44,7 +44,7 @@
 }
 
 .withMe {
-    background-color: rgb(241, 233, 233);
+    /* background-color: rgb(241, 233, 233); */
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -60,7 +60,7 @@
     text-align: justify;
 }
 .skills {
-    background-color: rgb(241, 233, 233);
+    /* background-color: rgb(241, 233, 233); */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,7 +76,7 @@
     text-align: justify;
 }
 .footer {
-    background-color: rgb(226, 217, 217);
+    /* background-color: rgb(226, 217, 217); */
     display: flex;
     justify-content: space-around;
     height: 50px;
