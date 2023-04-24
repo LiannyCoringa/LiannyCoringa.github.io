@@ -1,33 +1,67 @@
-const clickInButton = () => {
-    let body = document.getElementById('body');
-    let header = document.getElementById('header');
-    let sobreMim = document.getElementById('sobreMim');
-    let habilidades = document.getElementById('habilidades');
-    let button = document.getElementById('button')
-    let withMe = document.getElementById('withMe');
-    let skills = document.getElementById('skills');
-    let footer = document.getElementById('footer');
+if (localStorage.getItem('darkMode') !== null) {
+    header.style.backgroundColor = 'black';
+    button.style.backgroundColor = 'black';
+    withMe.style.backgroundColor = 'black';
+    skills.style.backgroundColor = 'black';
+    footer.style.backgroundColor = 'rgb(68, 64, 64)';
 
-    let background = body.style.backgroundColor = 'black';
-    let backgroundHeader = header.style.backgroundColor = 'black';
-    let backgroundButton = button.style.backgroundColor = 'black';
-    let backgroundWithMe = withMe.style.backgroundColor = 'black';
-    let backgroundSkills = skills.style.backgroundColor = 'black';
-    let backgroundFooter = footer.style.backgroundColor = 'rgb(68, 64, 64';
+    header.style.color = 'white';
+    sobreMim.style.color = 'white';
+    habilidades.style.color = 'white';
+    withMe.style.color = 'white';
+    skills.style.color = 'white';
+} else {
+    header.style.backgroundColor = 'rgb(226, 217, 217)';
+    withMe.style.backgroundColor = 'rgb(241, 233, 233)';
+    button.style.backgroundColor = 'white';
+    skills.style.backgroundColor = 'rgb(241, 233, 233)';
+    footer.style.backgroundColor = 'rgb(226, 217, 217)';
+    header.style.color = 'black';
+    sobreMim.style.color = 'black';
+    habilidades.style.color = 'black';
+    withMe.style.color = 'black';
+    skills.style.color = 'black';
+}
 
-    let colorHeader = header.style.color = 'white'; 
-    let colorSobreMim = sobreMim.style.color = 'white';   
-    let colorHabilidades = habilidades.style.color = 'white';
-    let colorWithMe = withMe.style.color = 'white';
-    let colorSkills = skills.style.color = 'white';
 
-    return(background, backgroundHeader, backgroundButton, backgroundWithMe, backgroundSkills, backgroundFooter, colorHeader, colorSobreMim, colorHabilidades, colorWithMe, colorSkills);
-};
-    
+let header = document.getElementById('header');
+let sobreMim = document.getElementById('sobreMim');
+let habilidades = document.getElementById('habilidades');
+let button = document.getElementById('button')
+let withMe = document.getElementById('withMe');
+let skills = document.getElementById('skills');
+let footer = document.getElementById('footer');
+
     let buttonDark = document.getElementById("darkMode");
-    buttonDark.addEventListener('click', clickInButton);
+    buttonDark.addEventListener('click', () => {
+        header.style.backgroundColor = 'black';
+        button.style.backgroundColor = 'black';
+        withMe.style.backgroundColor = 'black';
+        skills.style.backgroundColor = 'black';
+        footer.style.backgroundColor = 'rgb(68, 64, 64)';
 
-    // let buttonLight = document.getElementById('lightMode');
-    // buttonLight.addEventListener('click', )
-    // Preciso ver exemplos de como aplicar o localStorage para minha página voltar a ficar clara quando tocar no botão Light. 
+        header.style.color = 'white';
+        sobreMim.style.color = 'white';
+        habilidades.style.color = 'white';
+        withMe.style.color = 'white';
+        skills.style.color = 'white';
+        localStorage.setItem('darkMode', 'true');
+    });
+
+    let buttonLight = document.getElementById('lightMode');
+    buttonLight.addEventListener('click', () => {
+        localStorage.removeItem('darkMode');
+        header.style.backgroundColor = 'rgb(226, 217, 217)';
+        withMe.style.backgroundColor = 'rgb(241, 233, 233)';
+        button.style.backgroundColor = 'white';
+        skills.style.backgroundColor = 'rgb(241, 233, 233)';
+        footer.style.backgroundColor = 'rgb(226, 217, 217)';
+        header.style.color = 'black';
+        sobreMim.style.color = 'black';
+        habilidades.style.color = 'black';
+        withMe.style.color = 'black';
+        skills.style.color = 'black';
+        location.reload();
+    })
+
 
