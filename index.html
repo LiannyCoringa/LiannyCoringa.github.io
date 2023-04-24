@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head> 
+    <head>
         <meta charset="UTF-8">
         <title>Website - Lianny Coringa</title>
         <link href="./bulma-0.9.4/bulma/css/bulma.min.css" rel="stylesheet">
         <link href="https://fonts.google.com/specimen/Quicksand" rel="stylesheet">
         <link rel="stylesheet" type="text/CSS" href="Style.css">
     </head>
-    <body>
-        <header class="header">
+    <body id="body">
+        <header id="header" class="header">
             <p>Lianny Karoline Coringa da Costa</p>
-            <div class="links"><p><a href="#sobreMim">Sobre mim</a></p>
-            <p><a href="#skillsTitle">Habilidades</a></p></div>
-        </header>
-        <section class="text"> 
-            <p>Iniciando a minha formação em desenvolvimento web.</p></section>
-        
-       <main>
-        <section class="withMe">
-        <p id="sobreMim">Sobre mim</p>
-        <br>
-        <p id="descrition">Me chamo Lianny, sou de Natal/RN, formada em direito e pós-graduada em Direito Processual Penal. Venho estudando sobre desenvolvimento de software web e estou iniciando meu curso na Trybe.</p></section>
-        <section class="skills">
-        <p id="skillsTitle">Habilidades</p>
-        <br>
-        <ul id="skillsList">
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>HTML</HTml></li>
-            <li>Git e GitHub</li>
-            <li>Soft Skills</li>
-            </ul>
+            <nav class="links">
+                <p><a id="sobreMim" href="#sobreMim">Sobre mim</a></p>
+                <p><a id="habilidades" href="#skillsTitle">Habilidades</a></p>
+            </nav>
+            <section id="button" class="buttonDarkLight">
+                <button id="darkMode" class="button is-dark">Dark</button>
+                <button id="lightMode" class="button is-light">Light</button>
             </section>
-       </main>
-        <footer class="footer">
+        </header>
+        <section id="text" class="text">
+            <p>Iniciando a minha formação em desenvolvimento web.</p>
+        </section>
+        <main>
+            <article>
+            <section id="withMe" class="withMe">
+                <p id="sobreMim">Sobre mim</p>
+                <br>
+                <p id="descrition">Me chamo Lianny, sou de Natal/RN, formada em direito e pós-graduada em Direito Processual Penal. Venho estudando sobre desenvolvimento de software web e estou iniciando meu curso na Trybe.</p>
+            </section>
+            <section id="skills" class="skills">
+                <p id="skillsTitle">Habilidades</p>
+                <br>
+                <ul id="skillsList">
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>HTML</HTml></li>
+                    <li>Git e GitHub</li>
+                    <li>Soft Skills</li>
+                </ul>
+            </section>
+            </article>
+        </main>
+        <footer id="footer" class="footer">
             <p>Contato: (84) 99987-4004 <br> E-mail: Lianny_costa@hotmail.com</p>
             <a class="button is-normal" href="https://github.com/LiannyCoringa" target="_blank">GitHub</a>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
