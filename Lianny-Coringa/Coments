@@ -1,0 +1,167 @@
+// Script:
+
+// let header = document.getElementById('header');
+// let sobreMim = document.getElementById('sobreMim');
+// let habilidades = document.getElementById('habilidades');
+// let button = document.getElementById('button')
+// let withMe = document.getElementById('withMe');
+// let skills = document.getElementById('skills');
+// let footer = document.getElementById('footer');
+// let bodyTag = document.querySelector('body');
+
+
+// if (localStorage.getItem('darkMode') === null) {
+//     bodyTag.style.backgroundColor = 'white';
+//     header.style.backgroundColor = 'rgb(226, 217, 217)';
+//     withMe.style.backgroundColor = 'rgb(241, 233, 233)';
+//     button.style.backgroundColor = 'rgb(226, 217, 217)';
+//     skills.style.backgroundColor = 'rgb(241, 233, 233)';
+//     footer.style.backgroundColor = 'rgb(226, 217, 217)';
+//     header.style.color = 'black';
+//     sobreMim.style.color = 'black';
+//     habilidades.style.color = 'black';
+//     withMe.style.color = 'black';
+//     skills.style.color = 'black';
+// } else {
+//     bodyTag.style.backgroundColor = 'black';
+//     header.style.backgroundColor = 'black';
+//     button.style.backgroundColor = 'black';
+//     withMe.style.backgroundColor = 'black';
+//     skills.style.backgroundColor = 'black';
+//     footer.style.backgroundColor = 'rgb(68, 64, 64)';
+
+//     header.style.color = 'white';
+//     sobreMim.style.color = 'white';
+//     habilidades.style.color = 'white';
+//     withMe.style.color = 'white';
+//     skills.style.color = 'white';
+// }
+
+//     let buttonDark = document.getElementById("darkMode");
+//     buttonDark.addEventListener('click', () => {
+//         bodyTag.style.backgroundColor = 'black';
+//         header.style.backgroundColor = 'black';
+//         button.style.backgroundColor = 'black';
+//         withMe.style.backgroundColor = 'black';
+//         skills.style.backgroundColor = 'black';
+//         footer.style.backgroundColor = 'rgb(68, 64, 64)';
+
+//         header.style.color = 'white';
+//         sobreMim.style.color = 'white';
+//         habilidades.style.color = 'white';
+//         withMe.style.color = 'white';
+//         skills.style.color = 'white';
+//         localStorage.setItem('darkMode', 'true');
+//     });
+
+//     let buttonLight = document.getElementById('lightMode');
+//     buttonLight.addEventListener('click', () => {
+//         bodyTag.style.backgroundColor = 'white';
+//         header.style.backgroundColor = 'rgb(226, 217, 217)';
+//         withMe.style.backgroundColor = 'rgb(241, 233, 233)';
+//         button.style.backgroundColor = 'rgb(226, 217, 217)';
+//         skills.style.backgroundColor = 'rgb(241, 233, 233)';
+//         footer.style.backgroundColor = 'rgb(226, 217, 217)';
+//         header.style.color = 'black';
+//         sobreMim.style.color = 'black';
+//         habilidades.style.color = 'black';
+//         withMe.style.color = 'black';
+//         skills.style.color = 'black';
+//         localStorage.removeItem('darkMode');
+//     })
+
+
+// Style.css:
+// * {
+//     margin: 0px;
+//     border: 0px;
+//     padding: 0px;
+// }
+// .header {
+//     display: flex;
+//     flex-flow: row nowrap;
+//     justify-content: space-around;
+//     align-items: center;
+//     text-align: center;
+//     padding: 20px;
+//     /* background-color: rgb(226, 217, 217); */
+// }
+// .links {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+//     text-decoration: none;
+// }
+// .links a {
+//     /* color: black; */
+//     padding: 5px;
+//     border: 2px solid white;
+// }
+
+// .links a:hover {
+//     color: #000000;
+//     opacity: 0.1;
+// }
+// .links p {
+//     margin: 7px;
+// }
+// .text {
+//     background-image: url(./images/WhatsApp\ Image\ 2023-01-24\ at\ 16.55.22.jpeg);
+//     opacity: 0.6;
+//     text-align: center;
+//     font-size: 25px;
+//     min-height: 100vh;
+//     background-size: cover;
+//     background-position: center;
+//     padding: 30px;
+//     color: black;
+// }
+
+// .withMe {
+//     /* background-color: rgb(241, 233, 233); */
+//     padding: 30px;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+// }
+// #sobreMim {
+//     width: 30%;
+//     border: 2px solid white;
+//     text-align: center;
+// }
+// #descrition {
+//     width: 60%;
+//     text-align: justify;
+// }
+// .skills {
+//     /* background-color: rgb(241, 233, 233); */
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     padding: 30px;
+// }
+// #skillsTitle {
+//     width: 30%;
+//     border: 2px solid white;
+//     text-align: center;
+// }
+// #skillsList {
+//     width: 60%;
+//     text-align: justify;
+// }
+// .footer {
+//     /* background-color: rgb(226, 217, 217); */
+//     display: flex;
+//     justify-content: space-around;
+//     height: 50px;
+// }
+// .footer p {
+//     text-align: justify;
+//     color: black;
+//     text-decoration: none
+// }
+// .buttonDarkLight {
+//     /* background-color: rgb(226, 217, 217); */
+//     margin: 5px;
+//     border: 0;
+// }
